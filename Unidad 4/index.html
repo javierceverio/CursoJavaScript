@@ -1,0 +1,144 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Bienvenidos al curso de JavaScript 2020</h1>
+        <script>
+            //EJERCICIO 1
+            var numero1 = prompt("Ingrese un numero");
+            var numero2 = prompt("Ingrese otro numero");
+            if (numero1 > numero2) {
+                console.log("El menor de los dos numeros es el : " + numero2);
+            }
+            else {
+                console.log("El menor de los dos numeros es el : " + numero1);
+            }
+            
+            //EJERCICIO 2
+            var numero = 18;
+            if (numero % 2 == 0){
+                console.log("El numero es par");
+            }
+            else {
+                console.log("El numero es impar");
+            }
+
+            //EJERCICIO 3
+            var ganeLaCarrera = false;
+            if (ganeLaCarrera) {
+                console.log("Ganaste");
+            }
+            else {
+                console.log("Perdiste");
+            }
+
+            //EJERCICIO 4
+            var posicionEnLaCarrera = 6;
+            if (posicionEnLaCarrera == 1) {
+                console.log('FELICITACIONES, SALISTE 1RO');
+            }
+            else if (posicionEnLaCarrera == 2) {
+                console.log('Te falto poquito para ganar');
+            }
+            else if (posicionEnLaCarrera == 3) {
+                console.log('Sos un orgullo para tu familia');
+            }
+            else if (posicionEnLaCarrera > 3) {
+                console.log('Volvé a tu casa');
+            }
+            else {
+                console.log('No tires fruta');
+            }
+
+            //EJERCICIO 5
+            var posicionEnLaCarrera = 6;
+            var saludo;
+            if (posicionEnLaCarrera == 1) {
+                saludo = 'FELICITACIONES, SALISTE 1RO';
+            }
+            else if (posicionEnLaCarrera == 2) {
+                saludo = 'Te falto poquito para ganar';
+            }
+            else if (posicionEnLaCarrera == 3) {
+                saludo = 'Sos un orgullo para tu familia';
+            }
+            else if (posicionEnLaCarrera > 3) {
+                saludo = 'Volvé a tu casa';
+            }
+            else {
+                saludo = 'No tires fruta';
+            }
+            console.log(saludo);
+
+            //EJERCICIO 6
+            var montoFactura = 2000;
+            if (montoFactura > 1000) {
+                console.log('Debe pagar: $ ' + (montoFactura - montoFactura * 0.2));
+            }
+            else {
+                console.log('Debe pagar: $ ' + montoFactura);
+            }
+
+            //EJERCICIO 7
+            var montoVendido = prompt('Ingrese el monto vendido: ');
+            var codigoVendedor = prompt('Ingrese el codigo de vendedor: ');
+            var comisiones;
+            if (codigoVendedor < 100) {
+                comisiones = montoVendido * 0.3;
+            }
+            else if (codigoVendedor > 200) {
+                comisiones = montoVendido * 0.1
+            }
+            else {
+                comisiones = montoVendido * 0.2;
+            }
+            console.log('Codigo del Vendedor: ' + codigoVendedor + ', el monto vendido fue de: $ ' + montoVendido + ' y las comisiones fueron por: $ ' + comisiones);
+            
+            //EJERCICIO 8
+            var dia = prompt('Ingrese un numero entre 1 y 7: ');
+            if (dia == 1) {
+                console.log('Lunes');
+            }
+            else if (dia == 2) {
+                console.log('Martes');
+            }
+            else if (dia == 3) {
+                console.log('Miercoles');
+            }
+            else if (dia == 4) {
+                console.log('Jueves');
+            }
+            else if (dia == 5) {
+                console.log('Viernes');
+            }
+            else if (dia == 6) {
+                console.log('Sabado');
+            }
+            else if (dia == 7) {
+                console.log('Domingo');
+            }
+            else {
+                console.log('Ingreso un numero erroneo');
+            }
+
+            //EJERCICIO 9
+            var cantPersones = 6;
+            if (cantPersones < 8) {
+                console.log('Pagar $ 1.5 por persona; total a abonar: $ ' + (cantPersones * 1.5));
+            }
+            else {
+                console.log('Pagar $ 0.5 por persona; total a abonar: $ ' + (cantPersones * 0.5));
+            }
+
+            //EJERCICIO 10
+            var valorCompra = 1000;
+            if (valorCompra > 100) {
+                console.log('El cliente debe abonar: $ ' + (valorCompra - valorCompra * 0.15));
+            }
+            else {
+                console.log('El cliente debe abonar: $ ' + valorCompra);
+            }
+        </script>
+    </body>
+</html>
