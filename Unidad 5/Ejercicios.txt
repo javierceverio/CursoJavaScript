@@ -1,0 +1,40 @@
+Ejercicios Practicos N° 5-1
+
+1- Escribir un Programa que imprima la palabra “Hola” 10 veces
+2- Escribir un programa que escriba todos los números enteros entre 1 y 100
+3- Diseñar un programa que calcule la suma de los 20 primeros números impares
+4- Mostrar todos los números de 1 a n aumentando de 1 en 1 donde n lo ingresa el usuario en un prompt.
+5- Hacer un programa para que el usuario ingrese 10 números y muestre su suma de los mismos.
+6- Mostrar todos los números de 1 a N aumentando de 2 en 2 donde n lo ingresa el usuario en un prompt.
+7- Mostrar todos los números de N a 1 disminuyendo de 1 en 1 donde n lo ingresa el usuario en un prompt.
+8- Escribir utilizando console.log la tabla del 9.
+9- Se ingresan un conjunto de n alturas de personas por teclado. Mostrar la altura promedio de las personas.
+10- Se desea escribir los nombres de los días de la semana en función de la variable d (día) introducida por teclado.  1(Lunes) – 2(martes) – 3(Miércoles)……..6(Sábado) – 7(Domingo)
+Realizar un programa  que muestre en pantalla los números desde un valor inicial, hasta un valor final, ingresados por el usuario en forma descendente 
+11- Dibujar los siguientes patrones ocupando document.write, para rellenar los espacios vacíos se debe imprimir un espacio vacío.
+Cuadrado lleno:
+*****
+*****
+*****
+*****
+*****
+
+Piramide Izquierda:
+
+*     
+
+**    
+
+***   
+
+****  
+
+***** 
+
+Cuadrado hueco:
+
+*****
+*   *
+*   *
+*   *
+*****

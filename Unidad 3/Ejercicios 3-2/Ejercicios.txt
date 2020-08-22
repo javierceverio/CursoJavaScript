@@ -1,0 +1,44 @@
+Ejercicio Practicos N° 3-2
+
+1) Definición de Algoritmo (dar un ejemplo).. Buscar definición corta en internet.. y explicarlo con palabras propias
+
+2) Que es Pseudocodigo (dar un ejemplo) Buscar definición corta en internet.. y explicarlo con palabras propias
+
+
+3) Realizar los siguientes problemas:
+
+a)    Realizar un Programa en JavaScript que resuelva los siguientes problemas (los valores de las variables deben ser asignados por ustedes):
+
+un programa que calcule la superficie de un rectángulo
+un programa que calcule superficie de un triangulo
+un programa que calcule superficie de un circulo
+Ejemplo:
+
+var lado1 = 10;
+
+var lado2 = 20;
+
+var superficierectangulo = ?;
+
+b) Crear 3  variables numéricas, calcular e imprimir por consola el producto, suma y el promedio. 
+
+c) Una tienda ofrece un descuento del 15% sobre el total de una compra y un cliente desea saber cuánto deberá pagar finalmente. Deberán crear 5 artículos que el usuario ha adquirido de los cuales los cuales tendrán sus nombres y valores, luego mostrar el descuento aplicado y tambien el importe total.
+
+Ejemplo:
+
+var objeto1 = 'zapatillas';
+
+var valorobjeto1 = 500;
+
+var objeto2 = 'medias';
+
+var valorobjeto2 = 150;
+
+var totaldescuentoventa = ?;
+
+var totalfinal = ?;
+
+d) Dada una cantidad en pesos (el valor lo deben asignar ustedes), obtener la equivalencia en dólares
+
+e) Un  cliente realizo una compra y necesita saber el importe del IVA de la misma. Realizar un programa que dado el importe de una factura calcular el valor correspondiente al IVA.
+

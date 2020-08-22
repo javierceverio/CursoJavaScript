@@ -1,0 +1,13 @@
+EJERCICIO 1
+
+EJERCICIO a
+console.log(18);
+
+EJERCICIO b
+console.log(09);
+
+EJERCICIO c
+console.log(1980);
+
+EJERCICIO d
+console.log(9);

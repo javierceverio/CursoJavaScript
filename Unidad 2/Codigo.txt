@@ -1,0 +1,24 @@
+EJERCICIO 1
+    var cantidadDeVentanasEnMiCasa = 9;
+    console.log(cantidadDeVentanasEnMiCasa);
+
+EJERCICIO 2
+    var soyHumano = true;
+    console.log(soyHumano);
+
+EJERCICIO 3
+    var miGustoDePizzaPreferido = 'Especial';
+    console.log(miGustoDePizzaPreferido);
+
+EJERCICIO 4
+    var variableQueCambia = false;
+    console.log(variableQueCambia);
+
+    variableQueCambia = 'Hola';
+    console.log(variableQueCambia);
+
+    variableQueCambia = 0;
+    console.log(variableQueCambia);
+
+    variableQueCambia = 'Minions';
+    console.log(variableQueCambia);
