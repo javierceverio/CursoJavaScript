@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidad 7 - 1</title>
+</head>
+<body>
+    <script>
+        // EJERCICIO 1
+        function imprimirApellido() {
+            console.log("Santaguida");
+        }
+        imprimirApellido();
+
+        // EJERCICIO 2
+        function miComidaFavorita() {
+            console.log("Pizza");
+        }
+        miComidaFavorita();
+
+        // EJERCICIO 3
+        function miEdad() {
+            console.log("40");
+        }
+        miEdad();
+
+        // EJERCICIO 4
+        function sumaDeDosNumeros() {
+            var numero1 = 5;
+            var numero2 = 8;
+            console.log("La suma entre " + numero1 + " y " + numero2 + " es: " + (numero1 + numero2));
+        }
+        sumaDeDosNumeros();
+
+        // EJERCICIO 5
+        function parImpar(numero) {
+            if (numero % 2 == 0) {
+                console.log("El numero " + numero + " es par");
+            }
+            else {
+                console.log("El numero " + numero + " es impar");
+            }
+        }
+        parImpar(4);
+        parImpar(9);
+
+        // EJERCICIO 6
+        function nombreEdad(nombre, edad) {
+            console.log("Mi nombre es: " + nombre + " y mi edad es: " + edad);
+        }
+        nombreEdad("Juan", 23);
+
+        // EJERCICIO 7
+        function promedio(numero1, numero2, numero3) {
+            var promedio = (numero1 + numero2 + numero3) / 3;
+            console.log("El promedio de los numeros (" + numero1 + ", " + numero2 + " y " + numero3 + ") es: " + promedio);
+        }
+        promedio(3, 7, 88);
+
+        // EJERCICIO 8
+        function mayorDeEdad() {
+            var edad = parseInt(prompt("Ingrese su edad:"));
+            if (edad >= 18) {
+                alert("Mayor de edad");
+            }
+            else {
+                alert("Menor de edad");
+            }
+        }
+        mayorDeEdad();
+
+        // EJERCICIO 9
+        function comparaPalabras() {
+            var palabra1 = prompt("Ingrese una palabra:");
+            var palabra2 = prompt("Ingrese otra palabra:");
+            if (palabra1 == palabra2) {
+                console.log("Las palabras " + palabra1 + " y " + palabra2 + " son iguales");
+            }
+            else {
+                console.log("Las palabras " + palabra1 + " y " + palabra2 + " son distintas");
+            }
+        }
+        comparaPalabras();
+    </script>
+</body>
+</html>

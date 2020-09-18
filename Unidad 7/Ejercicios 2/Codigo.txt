@@ -1,0 +1,107 @@
+// EJERCICIO 1
+        var datosPersonales = () => {
+            var nombre = prompt("Ingrese su nombre:");
+            var apellido = prompt("Ingrese su apellido:");
+            var edad = parseInt(prompt("Ingrese su edad:"));
+            if (edad >= 18) {
+                console.log(nombre + " " + apellido + " tiene " + edad + " años y es mayor de edad.");
+            }
+            else {
+                console.log(nombre + " " + apellido + " tiene " + edad + " años y es menor de edad.")
+            }
+        }
+        datosPersonales();
+
+// EJERCICIO 2
+        function logueo() {
+            var usuario = prompt("Ingrese su Usuario:");
+            var contrasenia = prompt("Ingrese su Contraseña:");
+            if ((usuario != "hola") || (contrasenia != "chau")) {
+                console.log("Usuario o Contraseña incorrecto");
+            }
+            else {
+                console.log("Access Success");
+            }
+        }
+        logueo();
+
+// EJERCICIO 3
+        function dolarPesos() {
+            var dolares = parseFloat(prompt("Ingrese la cantidad de Dolares:"));
+            var cambio = parseFloat(prompt("Ingrese el valor de 1 Dolar:"));
+            var total = dolares * cambio;
+            console.log(dolares + " dolares equivalen a " + total + " pesos.");
+        }
+        dolarPesos();
+
+// EERCICIO 4
+        function piesYardas(pies) {
+            var yardas = pies / 3;
+            return yardas;
+        }
+        console.log("5 pies equivale a " + piesYardas(5) + " yardas");
+
+        function piesPulgadas(pies) {
+            var yardas = pies * 12;
+            return yardas;
+        }
+        console.log("15 pies equivale a " + piesPulgadas(15) + " pulgadas");
+
+        function piesCentimetros(pies) {
+            var yardas = pies * 30.48;
+            return yardas;
+        }
+        console.log("12 pies equivale a " + piesCentimetros(12) + " centimetros");
+
+        function piesMetros(pies) {
+            var yardas = pies * 0.3048;
+            return yardas;
+        }
+        console.log("8 pies equivale a " + piesMetros(8) + " metros");
+
+// EJERCICIO 5
+        var estadoClima = (temperatura) => {
+            if (temperatura > 25) {
+                return "Cálido";
+            }
+            else if (temperatura < 25 && temperatura > 10) {
+                return "Templado";
+            }
+            else {
+                return "Frío";
+            }
+        }
+        var temperatura = parseFloat(prompt("Ingrese la temperatura de su ciudad:"));
+        console.log("La temperatura de hoy es " + temperatura + " grados, entonces el clima está: " + estadoClima(temperatura));
+
+// EJERCICIO 6
+        var nombre;
+        var edad;
+        var sueldo;
+        var persona = new Array();
+        var personas = new Array();
+        var cargarSueldos = () => {
+            var cantidad = parseInt(prompt("Ingrese la cantidad de Empleados que va a cargar:"));
+            for (i = 0; i < cantidad; i++) {
+                nombre = prompt("Ingrese el Nombre del Empleado " + (i + 1) + ":");
+                edad = parseInt(prompt("Ingrese la edad del Empleado " + (i + 1) + ":"));
+                sueldo = parseFloat(prompt("Ingrese el Sueldo del Empleado " + (i + 1) + ":"));
+                persona.push(nombre);
+                persona.push(edad);
+                persona.push(sueldo);
+                personas.push(persona);
+            }
+        }
+        var mostrarDatosEmpleado = (indice) => {
+            console.log("Nombre: " + personas[indice][indice * 3] + ", Edad: " + personas[indice][(indice * 3) + 1] + ", Sueldo: $ " + personas[indice][(indice * 3) + 2]);
+        }
+        function mostrarTodosLosEmpleados() {
+            for (i = 0; i < personas.length; i++){
+                console.log("--------------------------------------------");
+                console.log("Empleado " + (i + 1) + ": ");
+                mostrarDatosEmpleado(i);
+            }
+        }
+        cargarSueldos();
+        mostrarDatosEmpleado(1);
+        mostrarTodosLosEmpleados();

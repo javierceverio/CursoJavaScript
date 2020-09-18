@@ -1,0 +1,16 @@
+Ejercicios Prácticos N° 7-2 Funciones (II)
+
+Se deberá utilizar funciones (comunes, con retorno, arrow, en varialbes)
+
+1- Se deberá realizar un programa en la cual pide al usuario nombre, apellido y edad, luego deberá evaluar si el usuario es mayor de edad.
+
+2- Realizar un programa el cual deberá simular el logueo de pagina, deberá pedir usuario y contraseña, mandar un mensaje en el caso que alguno de los dos sea incorrecto
+
+3- Realizar un programa que permita ingresar un importe en dólares , el valor del tipo de cambio y luego que se muestre por pantalla el importe especificado en pesos.
+
+4- Escriba un programa que convierta una medida dada en pies y lo transforme en : a) Yardas , b) Pulgadas , c) Centímetros , d) Metros 
+
+
+5- Se desea conocer el estado del clima de una ciudad , para ellos se ingresa en un cuadro de texto la temperatura , si la misma es mayor a 25 se debe mostrar una etiqueta que diga “Cálido” , si la temperatura esta entre 25 y 10 , se deberá mostrar una etiqueta que diga “Templado” , si la temperatura es menor a 10 , informar “ Frio” con una etiqueta
+
+7- Realizar un programa que permita ingresar datos de edad  y sueldo de 10 empleados. Además de ingresar los datos el programa debe permitir al usuario consultar los datos y mostrarlos en pantalla

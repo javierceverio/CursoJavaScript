@@ -1,0 +1,19 @@
+Ejercicios Practicos N° 7-1 Funciones I
+
+1-Hacer una función que imprima tu apellido.
+
+2-Hacer una función que imprima tu comida favorita.
+
+3-Hacer una función que imprima tu edad.
+
+4-Hacer una función que muestre la suma de dos números.
+
+5-Hacer una función que reciba un numero por parámetro e indique si es par o impar.
+
+6-Hacer una función que reciba dos parámetros, nombre y edad y los muestre por pantalla.
+
+7-Hacer una función que reciba 3 números y muestre el promedio
+
+8-Hacer una programa que pida ingresar al usuario su edad e indique si es mayor o menor (se deberá utilizar funciones alert() y prompt().
+
+9-Hacer programa que pida al usuario ingresar dos palabras e indicar si son iguales.
